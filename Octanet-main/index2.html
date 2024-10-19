@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .img {
+            height: 150px;
+            width: 150px;
+        }
+
+        .hamburger {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .hamburger div {
+            width: 35px;
+            height: 4px;
+            background-color:whitesmoke;
+            margin: 6px 0;
+            color:white;
+        }
+
+        .login-form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel-item {
+            height: 100vh;
+            min-height: 300px;
+            background: no-repeat center center scroll;
+            background-size: cover;
+            width: 100%;
+        }
+
+        .head {
+            color: whitesmoke;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #navbar{
+            position:sticky;
+
+        }
+
+        .navbar a {
+            padding-top:30px;
+            text-decoration: none;
+            color: white;
+            font-family: 'Baloo bhai', cursive;
+        }
+        footer{
+            padding:9px 20px;
+            position:sticky;
+        }
+        
+        .announcement{
+    height: 27px;
+    background-color: #9e0150;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+
+#announcement-text{
+    font-size: 14px;
+}
+
+        
+    </style>
+<header>
+    <div class="announcement">
+        <h6 id="announcement-text">Upto 30% off on your First Trip with us!</h6>
+    </div>
+</header>
+</head>
+
+<body style="background-color: black;">
+    
+
+        <div class="row" style="background-color:black">
+            <div class="box">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/img3.png" class="img">
+                    </div>
+                    <div class="col-md-6">
+                        
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="navbar"style="padding-left:100px;"><a href="http://example.com">ABOUT</a></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="navbar"style="padding-left:100px;"><a href="http://example.com">PACKAGES</a></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="navbar"style="padding-left:100px;"><a href="http://example.com">HOTELS</a></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="navbar"style="padding-left:100px;"><a href="http://example.com">VIEWS</a></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="navbar"style="padding-left:100px;"><a href="http://example.com">REVIEWS</a></div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="navbar"style="padding-left:100px;"><a href="http://example.com">CONTACT</a></div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <br><br>
+                    <div class="col-md-2"style="padding-top:30px;padding-left:125px;">
+                        <div class="hamburger">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="login">
+                    <img src="images/img6.webp" alt="login image" class="login__img">
+                    <form action="" class="login__form">
+                        <h1 class="login__title">Login</h1>
+                        <div class="login__content">
+                            <div class="login__box">
+                                <i class="ri-user-3-line login__icon"></i>
+                                <div class="login__box-input">
+                                    <input type="email" required class="login__input" id="login-email" placeholder=" ">
+                                    <label for="login-email" class="login__label">Email</label>
+                                </div>
+                            </div>
+                            <div class="login__box">
+                                <i class="ri-lock-2-line login__icon"></i>
+                                <div class="login__box-input">
+                                    <input type="password" required class="login__input" id="login-pass" placeholder=" ">
+                                    <label for="login-pass" class="login__label">Password</label>
+                                    <i class="ri-eye-off-line login__eye" id="login-eye"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login__check">
+                            <div class="login__check-group">
+                                <input type="checkbox" class="login__check-input" id="login-check">
+                                <label for="login-check" class="login__check-label">Remember me</label>
+                            </div>
+                            <a href="#" class="login__forgot">Forgot Password?</a>
+                        </div>
+                        <button type="submit" class="login__button">Login</button>
+                        <p class="login__register" style="color:whitesmoke">
+                            Don't have an account? <a href="#">Register</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <!-- Carousel Column -->
+            <div class="col-md-8">
+                <!-- Carousel -->
+                <div id="carouselExampleIndicators" class="carousel slide" style="width:100%;" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="background-image: url(images/jal.webp);object-fit:fill;">
+                        </div>
+                        <div class="carousel-item" style="background-image: url(images/amer.webp);object-fit:fill;">
+                        </div>
+                        <div class="carousel-item" style="background-image: url(images/Akshardham.webp);object-fit:fill;">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Text Column -->
+            <div class="col-md-4 d-flex align-items-center">
+                <div>
+                    <h1 class="head">Journey to the heart of your dream destinations</h1>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="row">
+            <div class="col-md-12">
+                <center><h1 style="color:#9e0150;background-color:wheat;">Explore the beautiful Cities of India with SimpliGO</h1></center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body"><img src="images/Leh.webp"></div>
+                    <div class="card-footer">Ladakh</div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body"><img src="images/Mathura.webp"></div>
+                    <div class="card-footer">Mathura</div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body"><img src="images/Chitrakoot.webp"></div>
+                    <div class="card-footer">Chitrakoot</div>
+                  </div>
+            </div>
+        </div><br><br>
+     <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body"><img src="images/Rameshwaram.webp"></div>
+                    <div class="card-footer">Rameshwaram</div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body"><img src="images/Manali.webp"></div>
+                    <div class="card-footer">Manali</div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body"><img src="images/Jibhi.webp"></div>
+                    <div class="card-footer">Jibhi</div>
+                  </div>
+            </div>
+            
+                
+        </div><br>
+        <footer>
+            <center><p style="color:white">&copy; 2024 SimpliGo</p></center>
+          </footer>
+
+
+
+              
+
+        
+          
+
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        
+</body>
+
+</html>
